@@ -1,3 +1,112 @@
 /**
  TODO(you): Write the CSS necessary to complete HW1!
 */
+div.header{
+}
+
+div.page-title{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+    background-size: cover;
+    background-position:top;
+    height: 500px;
+    font-family: 'Roboto Slab' , serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center
+
+}
+span.title-text{
+    width: 780px;
+}
+
+div.profile{
+    margin-top:-50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height:24px;
+    color:  rgb(51, 51, 51);
+    text-align: center;
+
+}
+
+div.author-photo{
+    margin-left: auto; margin-right: auto;
+    background-image: url("../images/vrk.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: white 1px solid;
+}
+
+span.author {
+    font-weight: bold;
+}
+
+span.update{
+    font-style: italic;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+    display: inline-block;
+}
+
+.heading{
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color:  rgb(51, 51, 51);
+
+}
+
+a{
+    color: #42b4d6;
+    font-weight:normal;
+    text-decoration: none;
+    font-family:'Roboto Slab', serif;
+}
+a:hover{
+    text-decoration:underline
+}
+.paragraphs{
+    font-family:'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51) ;
+}
+.recommendation{
+    font-weight:bold;
+}
+.context-top{
+    height: 60px;
+}
+
+.topic{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.article{
+    width: 66.67%;
+}
+
+.context-bottom{
+    height: 120px;
+}
+.number{
+    text-align: right;
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    position: relative;
+    left: -40px;
+    color: rgba(0, 0, 0, 0.25);
+}
